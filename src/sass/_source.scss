@@ -1,143 +1,48 @@
-// Generated SCSS Variables
-$base-size-xs: 0.125rem;
-$base-colour-grey-400: #282828;
-$base-font-size-xl: 1.25rem;
-$global-font-uidefaultfont: inter;
-$base-font-linespacing-lg: 1.5rem;
-$base-font-weight-semibold: 31.25rem;
-$base-colour-static-white: #ffffff;
-$base-size-lg: 0.75rem;
-$base-radius-md: 0.5rem;
-$base-colour-grey-100: #d9d9d9;
-$global-colour-textonlight: #282828;
-$base-font-weight-regular: 25rem;
-$base-colour-grey-300: #747474;
-$base-colour-pink-300: #cd0087;
-
-// Generated SCSS Mixins
+/* Generated Tailwind-SCSS */
 @mixin input_resting {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- gap: $base-size-xs;
- padding: 0rem;
- width: 15.937rem;
+  @apply gap-x-0.5 gap-y-0.5 pt-0 pr-0 pb-0 pl-0; 
 }
-@mixin input_resting_label {
- display: flex;
- flex-direction: column;
- color: $base-colour-grey-400;
- font-family: $global-font-uidefaultfont;
- font-size: $base-font-size-xl;
- font-weight: 500;
- font-style: normal;
- line-height: $base-font-linespacing-lg;
- width: 15.937rem;
+
+@mixin input_resting_Label {
+  @apply text-[#282828] font-[inter] text-xl font-medium; 
 }
-@mixin input_resting_input-box {
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: $base-size-lg;
- padding: 0.687rem 3.562rem 0.687rem $base-size-lg;
- background: $base-colour-static-white;
- width: 15.937rem;
- border: 0.093rem solid $base-colour-grey-100;
- box-shadow: inset 0 0.093rem 0 0 $base-colour-grey-100, inset -0.093rem 0 0 0 $base-colour-grey-100, inset 0 -0.093rem 0 0 $base-colour-grey-100, inset 0.093rem 0 0 0 $base-colour-grey-100;
- border-radius: $base-radius-md;
+
+@mixin input_resting_Input-box {
+  @apply bg-white gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#d9d9d9] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
-@mixin input_resting_input-box_input-text {
- display: flex;
- flex-direction: column;
- color: $global-colour-textonlight;
- font-family: $global-font-uidefaultfont;
- font-size: 1rem;
- font-weight: 400;
- font-style: normal;
- line-height: 20px;
- width: 11.625rem;
+
+@mixin input_resting_Input-box_Input-text {
+  @apply text-[#282828] font-[inter] text-base font-normal; 
 }
+
 @mixin input_hover {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- gap: $base-size-xs;
- padding: 0rem;
- width: 15.937rem;
+  @apply gap-x-0.5 gap-y-0.5 pt-0 pr-0 pb-0 pl-0; 
 }
-@mixin input_hover_label {
- display: flex;
- flex-direction: column;
- color: $base-colour-grey-400;
- font-family: $global-font-uidefaultfont;
- font-size: $base-font-size-xl;
- font-weight: 500;
- font-style: normal;
- line-height: $base-font-linespacing-lg;
- width: 15.937rem;
+
+@mixin input_hover_Label {
+  @apply text-[#282828] font-[inter] text-xl font-medium; 
 }
-@mixin input_hover_input-box {
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: $base-size-lg;
- padding: 0.687rem $base-size-lg;
- background: $base-colour-static-white;
- width: 15.937rem;
- border: 0.093rem solid $base-colour-grey-300;
- box-shadow: inset 0 0.093rem 0 0 $base-colour-grey-300, inset -0.093rem 0 0 0 $base-colour-grey-300, inset 0 -0.093rem 0 0 $base-colour-grey-300, inset 0.093rem 0 0 0 $base-colour-grey-300;
- border-radius: $base-radius-md;
+
+@mixin input_hover_Input-box {
+  @apply bg-white gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#747474] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
-@mixin input_hover_input-box_input-text {
- display: flex;
- flex-direction: column;
- color: $global-colour-textonlight;
- font-family: $global-font-uidefaultfont;
- font-size: 1rem;
- font-weight: 400;
- font-style: normal;
- line-height: 20px;
- width: 14.437rem;
+
+@mixin input_hover_Input-box_Input-text {
+  @apply text-[#282828] font-[inter] text-base font-normal; 
 }
+
 @mixin input_active {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- gap: $base-size-xs;
- padding: 0rem;
- width: 15.937rem;
+  @apply gap-x-0.5 gap-y-0.5 pt-0 pr-0 pb-0 pl-0; 
 }
-@mixin input_active_label {
- display: flex;
- flex-direction: column;
- color: $base-colour-pink-300;
- font-family: $global-font-uidefaultfont;
- font-size: $base-font-size-xl;
- font-weight: 500;
- font-style: normal;
- line-height: $base-font-linespacing-lg;
- width: 15.937rem;
+
+@mixin input_active_Label {
+  @apply text-[#0177cc] font-[inter] text-xl font-medium; 
 }
-@mixin input_active_input-box {
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: $base-size-lg;
- padding: 0.687rem $base-size-lg;
- background: $base-colour-static-white;
- width: 15.937rem;
- border: 0.093rem solid $base-colour-pink-300;
- box-shadow: inset 0 0.093rem 0 0 $base-colour-pink-300, inset -0.093rem 0 0 0 $base-colour-pink-300, inset 0 -0.093rem 0 0 $base-colour-pink-300, inset 0.093rem 0 0 0 $base-colour-pink-300;
- border-radius: $base-radius-md;
+
+@mixin input_active_Input-box {
+  @apply bg-white gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#0177cc] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
-@mixin input_active_input-box_input-text {
- display: flex;
- flex-direction: column;
- color: $global-colour-textonlight;
- font-family: $global-font-uidefaultfont;
- font-size: 1rem;
- font-weight: 400;
- font-style: normal;
- line-height: 20px;
- width: 14.437rem;
+
+@mixin input_active_Input-box_Input-text {
+  @apply text-[#282828] font-[inter] text-base font-normal; 
 }
