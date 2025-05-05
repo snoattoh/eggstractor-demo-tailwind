@@ -8,7 +8,7 @@
 }
 
 @mixin input_resting_Input-box {
-  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#d9d9d9] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
+  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border border-solid border-[#d9d9d9] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
 
 @mixin input_resting_Input-box_Input-text {
@@ -24,7 +24,7 @@
 }
 
 @mixin input_hover_Input-box {
-  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#747474] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
+  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border border-solid border-[#747474] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
 
 @mixin input_hover_Input-box_Input-text {
@@ -40,7 +40,7 @@
 }
 
 @mixin input_active_Input-box {
-  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border-DEFAULT border-solid border-[#0177cc] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
+  @apply bg-white flex flex-row items-center gap-x-3 gap-y-3 border border-solid border-[#0177cc] rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg pt-[11px] pr-3 pb-[11px] pl-3; 
 }
 
 @mixin input_active_Input-box_Input-text {
